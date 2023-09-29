@@ -1,13 +1,16 @@
 package com.example.calculatorfortests;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CalculatorForTestsApplication {
-
+class Main {
     public static void main(String[] args) {
-        SpringApplication.run(CalculatorForTestsApplication.class, args);
+        Calculator calculator = new Calculator();
+
     }
+
+
+
+
 
 }
