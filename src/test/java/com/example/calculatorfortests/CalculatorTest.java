@@ -1,5 +1,7 @@
 package com.example.calculatorfortests;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -7,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class CalculatorForTestsApplicationTests {
+class CalculatorTests {
 
     private Calculator calculator;
     private double d1;
@@ -44,6 +46,8 @@ class CalculatorForTestsApplicationTests {
         answer = calculator.division(d1,d2);
         assertEquals(2,answer);
     }
+
+
 
 
 
